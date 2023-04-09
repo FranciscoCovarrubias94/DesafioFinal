@@ -1,4 +1,5 @@
 #include "Tienda.h"
+#include "Prenda.h"
 #include <string>
 
 using namespace std;
@@ -28,8 +29,8 @@ int Tienda::stockPrenda(string s1, string s2, string s3) {
 	}
 }
 
-int Tienda::calcularPrecio(int chupin, int calidad, int precioInicial) {
-	int preciofinal = precioInicial;
+double Tienda::calcularPrecio(int chupin, int calidad, int precioInicial) {
+	double preciofinal = precioInicial;
 	if (chupin == 1) {
 		preciofinal = preciofinal * 0.88;
 	}
@@ -39,9 +40,9 @@ int Tienda::calcularPrecio(int chupin, int calidad, int precioInicial) {
 	return preciofinal;
 }
 
-int Tienda::calcularPrecio(int manga, int cuello, int calidad, int precioInicial) {
-	int preciofinal = precioInicial;
-	if (manga = 1) {
+double Tienda::calcularPrecio(int manga, int cuello, int calidad, int precioInicial) {
+	double preciofinal = precioInicial;
+	if (manga == 1) {
 		preciofinal = preciofinal * 0.9;
 	}
 	if (cuello == 1) {

@@ -51,12 +51,6 @@ void Vendedor::mostrarHistorial() {
 	}
 }
 
-void Vendedor::mostrarInfo() {
-	cout << "Nombre del vendedor: " << Nombre << endl;
-	cout << "Apellido del vendedor: " << Apellido << endl;
-	cout << "Codigo del vendedor: " << Codigo << endl;
-}
-
 void Vendedor::mostrarUltimaCotizacion() {
 	int size = historial.size();
 	historial[size - 1].mostrarInfo();

@@ -16,7 +16,6 @@ public:
 	Vendedor(string, string, string);
 	void hacerCotizacion(Prenda&, int, string);
 	void mostrarHistorial();
-	void mostrarInfo();
 	void mostrarUltimaCotizacion();
 	string getNombre();
 	string getApellido();

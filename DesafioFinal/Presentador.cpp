@@ -9,51 +9,6 @@
 
 using namespace std;
 
-string pasarNombreCamisa(int manga, int cuello, int calidad) {
-	string nombre = "Camisa";
-	if (manga == 1) {
-		nombre = nombre + " - Manga corta";
-	}
-	else {
-		nombre = nombre + " - Manga Larga";
-	}
-
-	if (cuello == 1) {
-		nombre = nombre + " - Cuello Mao";
-	}
-	else {
-		nombre = nombre + " - Cuello Normal";
-	}
-
-	if (calidad == 1) {
-		nombre = nombre + " - Estandar";
-	}
-	else {
-		nombre = nombre + " - Premium";
-	}
-
-	return nombre;
-}
-
-string pasarNombrePantalon(int chupin, int calidad) {
-	string nombre = "Pantalon";
-	if (chupin == 1) {
-		nombre = nombre + " - chupin";
-	}
-	else {
-		nombre = nombre + " - no chupin";
-	}
-
-	if (calidad == 1) {
-		nombre = nombre + " - Estandar";
-	}
-	else {
-		nombre = nombre + " - Premium";
-	}
-
-	return nombre;
-}
-
 Presentador::Presentador(Vista* vista) :
 	p_vista(vista),
 	p_tienda(new Tienda("Wallmart", "Teniente Bello 2873")),
@@ -102,6 +57,51 @@ Presentador::Presentador(Vista* vista) :
 Presentador::~Presentador() {
 	delete p_tienda;
 	delete p_vendedor;
+}
+
+string pasarNombreCamisa(int manga, int cuello, int calidad) {
+	string nombre = "Camisa";
+	if (manga == 1) {
+		nombre = nombre + " - Manga corta";
+	}
+	else {
+		nombre = nombre + " - Manga Larga";
+	}
+
+	if (cuello == 1) {
+		nombre = nombre + " - Cuello Mao";
+	}
+	else {
+		nombre = nombre + " - Cuello Normal";
+	}
+
+	if (calidad == 1) {
+		nombre = nombre + " - Estandar";
+	}
+	else {
+		nombre = nombre + " - Premium";
+	}
+
+	return nombre;
+}
+
+string pasarNombrePantalon(int chupin, int calidad) {
+	string nombre = "Pantalon";
+	if (chupin == 1) {
+		nombre = nombre + " - chupin";
+	}
+	else {
+		nombre = nombre + " - no chupin";
+	}
+
+	if (calidad == 1) {
+		nombre = nombre + " - Estandar";
+	}
+	else {
+		nombre = nombre + " - Premium";
+	}
+
+	return nombre;
 }
 
 string Presentador::getNombreTienda() {
@@ -308,8 +308,6 @@ void Presentador::Cotizar3(string s1, string s2, bool& exit) {
 					try {
 						precio = stoi(aux1);
 						Cotizar4(s1, s2, opcion, precio, exit);
-						//cout << "Se logro guardar el precio" << endl;
-						//cin.get(); cin.get();
 
 					}
 					catch (...) {

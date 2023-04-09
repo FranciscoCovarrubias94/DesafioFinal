@@ -5,6 +5,8 @@
 
 using namespace std;
 
+class Presentador;
+
 Vista::Vista() {
 	p_presentador = new Presentador(this);
 	mostrarMenuPrincipal();

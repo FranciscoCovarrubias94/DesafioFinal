@@ -1,15 +1,8 @@
-﻿  Prenda.cpp
-  Presentador.cpp
+﻿  Presentador.cpp
 C:\Users\Gato\Documents\C++\DesafioFinal\DesafioFinal\Presentador.cpp(4,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+C:\Users\Gato\Documents\C++\DesafioFinal\DesafioFinal\Presentador.cpp(361,18): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\Gato\Documents\C++\DesafioFinal\DesafioFinal\Presentador.cpp(414,18): warning C4244: 'inicializando': conversión de 'double' a 'int'; posible pérdida de datos
   Tienda.cpp
-C:\Users\Gato\Documents\C++\DesafioFinal\DesafioFinal\Tienda.cpp(34,29): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\Gato\Documents\C++\DesafioFinal\DesafioFinal\Tienda.cpp(37,29): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\Gato\Documents\C++\DesafioFinal\DesafioFinal\Tienda.cpp(45,29): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\Gato\Documents\C++\DesafioFinal\DesafioFinal\Tienda.cpp(48,29): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\Gato\Documents\C++\DesafioFinal\DesafioFinal\Tienda.cpp(51,29): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-  Vendedor.cpp
-  Vista.cpp
-  main.cpp
   Generando código...
-C:\Users\Gato\Documents\C++\DesafioFinal\DesafioFinal\Tienda.cpp(29): warning C4715: 'Tienda::stockPrenda': no todas las rutas de acceso de control devuelven un valor
+C:\Users\Gato\Documents\C++\DesafioFinal\DesafioFinal\Tienda.cpp(30): warning C4715: 'Tienda::stockPrenda': no todas las rutas de acceso de control devuelven un valor
   DesafioFinal.vcxproj -> C:\Users\Gato\Documents\C++\DesafioFinal\Debug\DesafioFinal.exe

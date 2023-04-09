@@ -18,8 +18,8 @@ public:
 	void agregarPrenda(Prenda, int, int, int, int);
 	void agregarVendedor(Vendedor);
 	int stockPrenda(string, string, string);
-	int calcularPrecio(int, int, int);
-	int calcularPrecio(int, int, int, int);
+	double calcularPrecio(int, int, int);
+	double calcularPrecio(int, int, int, int);
 	string getNombre();
 	string getDireccion();
 };
