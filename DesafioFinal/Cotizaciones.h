@@ -11,10 +11,10 @@ private:
 	string FechaYHora;
 	string Codigo;
 	string Prenda;
-	int unitario;
+	double unitario;
 	int Cantidad;
-	int total = 0;
+	double total = 0;
 public:
-	Cotizaciones(int, string, string, string, int, int);
+	Cotizaciones(int, string, string, string, int, double);
 	void mostrarInfo();
 };

@@ -4,7 +4,7 @@
 
 using namespace std;
 
-Prenda::Prenda(int i1, int i2, int i3) {
+Prenda::Prenda(int i1, double i2, int i3) {
 	Calidad = i1;
 	Precio = i2;
 	Stock = i3;

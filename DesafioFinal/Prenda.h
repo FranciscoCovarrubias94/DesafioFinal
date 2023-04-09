@@ -3,9 +3,9 @@
 class Prenda {
 public:
 	int Calidad; //1 = estandar, 2 = Premium
-	int Precio;
+	double Precio;
 	int Stock;
-	Prenda(int, int, int);
+	Prenda(int, double, int);
 	int getStock();
 	friend class Vendedor;
 };

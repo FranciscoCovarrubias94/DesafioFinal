@@ -31,7 +31,7 @@ void Vendedor::hacerCotizacion(Prenda& prenda, int cantidad, string nombrePrenda
 	ctime_s(tmBuff, sizeof(tmBuff), &end_time);
 
 	int size = historial.size() + 1;
-	int precioUnitario = prenda.Precio;
+	double precioUnitario = prenda.Precio;
 
 	auto cotizacion = new Cotizaciones(size, tmBuff, Codigo, nombrePrenda, cantidad, precioUnitario);
 	historial.push_back(*cotizacion);

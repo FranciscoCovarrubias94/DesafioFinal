@@ -5,7 +5,7 @@
 
 using namespace std;
 
-Cotizaciones::Cotizaciones(int i1, string s1, string s2, string s3, int i2, int precio) {
+Cotizaciones::Cotizaciones(int i1, string s1, string s2, string s3, int i2, double precio) {
 	Identificacion = i1;
 	FechaYHora = s1;
 	Codigo = s2;

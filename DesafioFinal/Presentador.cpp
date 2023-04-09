@@ -1,7 +1,7 @@
 #include "Presentador.h"
 #include "Vista.h"
 #include "Vendedor.h"
-#include "Tienda.h";
+#include "Tienda.h"
 #include "Vendedor.h"
 #include "Camisa.h"
 #include "Pantalon.h"
@@ -358,7 +358,7 @@ void Presentador::Cotizar4(string s1, string s2, int i1, bool& exit) {
 					else {
 						int chupin = stoi(s1);
 						int calidad = stoi(s2);
-						int precio = p_tienda->calcularPrecio(chupin, calidad, i1);
+						double precio = p_tienda->calcularPrecio(chupin, calidad, i1);
 						Pantalon pantalon(chupin, Prenda(calidad, precio, 1));
 						string nombrePantalon = pasarNombrePantalon(chupin, calidad);
 						p_vendedor->hacerCotizacion(pantalon, cantidad, nombrePantalon);
@@ -411,7 +411,7 @@ void Presentador::Cotizar4(string s1, string s2, string s3, int i1, bool& exit) 
 						int manga = stoi(s1);
 						int cuello = stoi(s2);
 						int calidad = stoi(s3);
-						int precio = p_tienda->calcularPrecio(manga, cuello, calidad, i1);
+						double precio = p_tienda->calcularPrecio(manga, cuello, calidad, i1);
 						Camisa camisa(manga, cuello, Prenda(calidad, precio, 1));
 						string nombrePrenda = pasarNombreCamisa(manga, cuello, calidad);
 						p_vendedor->hacerCotizacion(camisa, cantidad, nombrePrenda);
