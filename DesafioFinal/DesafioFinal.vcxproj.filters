@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="App">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Vista">
+      <UniqueIdentifier>{5473acae-d8db-49d5-a4c1-d0eed839bfe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vista\ClaseVista">
+      <UniqueIdentifier>{73ba7a40-b4af-40ec-b31e-86e314e029c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentador">
+      <UniqueIdentifier>{a6803519-d517-483a-9563-4c025aa068cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentador\ClasePresentador">
+      <UniqueIdentifier>{38bb8e85-b341-43a2-8847-48d46d0567af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dominio">
+      <UniqueIdentifier>{20007034-dc93-4e42-ada1-a232fe5934b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dominio\ClaseVendedor">
+      <UniqueIdentifier>{41fd442d-199b-4bfc-8613-e6853a6bb434}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dominio\ClaseTienda">
+      <UniqueIdentifier>{8e2cdf23-cbd6-442c-bacc-dfc3ea2d1caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dominio\ClasePrenda">
+      <UniqueIdentifier>{880a6380-dd36-4bff-964a-fb2296aaa894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dominio\ClasePrenda\ClaseCamisa">
+      <UniqueIdentifier>{9c4d899b-0de6-4c22-a7d5-fac80cac1c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dominio\ClaseCotizaciones">
+      <UniqueIdentifier>{ace5dfea-1269-4d5e-8e64-eb9955d37206}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dominio\ClasePrenda\ClasePantalon">
+      <UniqueIdentifier>{d60384a5-ffff-4b80-8650-d081678d0ff7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Vista.cpp">
+      <Filter>Vista\ClaseVista</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentador.cpp">
+      <Filter>Presentador\ClasePresentador</Filter>
+    </ClCompile>
+    <ClCompile Include="Vendedor.cpp">
+      <Filter>Dominio\ClaseVendedor</Filter>
+    </ClCompile>
+    <ClCompile Include="Tienda.cpp">
+      <Filter>Dominio\ClaseTienda</Filter>
+    </ClCompile>
+    <ClCompile Include="Prenda.cpp">
+      <Filter>Dominio\ClasePrenda</Filter>
+    </ClCompile>
+    <ClCompile Include="Cotizaciones.cpp">
+      <Filter>Dominio\ClaseCotizaciones</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vista.h">
+      <Filter>Vista\ClaseVista</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentador.h">
+      <Filter>Presentador\ClasePresentador</Filter>
+    </ClInclude>
+    <ClInclude Include="Vendedor.h">
+      <Filter>Dominio\ClaseVendedor</Filter>
+    </ClInclude>
+    <ClInclude Include="Tienda.h">
+      <Filter>Dominio\ClaseTienda</Filter>
+    </ClInclude>
+    <ClInclude Include="Prenda.h">
+      <Filter>Dominio\ClasePrenda</Filter>
+    </ClInclude>
+    <ClInclude Include="Camisa.h">
+      <Filter>Dominio\ClasePrenda\ClaseCamisa</Filter>
+    </ClInclude>
+    <ClInclude Include="Cotizaciones.h">
+      <Filter>Dominio\ClaseCotizaciones</Filter>
+    </ClInclude>
+    <ClInclude Include="Pantalon.h">
+      <Filter>Dominio\ClasePrenda\ClasePantalon</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
